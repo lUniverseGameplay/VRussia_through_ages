@@ -9,13 +9,13 @@ E:\Programs\unity\6000.0.31f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker7
+AssetImportWorker2
 -projectPath
 E:/Projects/VRussia_through_ages/VRussia_through_ages
 -logFile
-Logs/AssetImportWorker7.log
+Logs/AssetImportWorker2.log
 -srvPort
-50660
+59485
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ E:/Projects/VRussia_through_ages/VRussia_through_ages
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2216]  Target information:
+Player connection [17116]  Target information:
 
-Player connection [2216]  * "[IP] 192.168.1.175 [Port] 0 [Flags] 2 [Guid] 4007816862 [EditorId] 4007816862 [Version] 1048832 [Id] WindowsEditor(7,verdenkaa-desc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17116]  * "[IP] 192.168.1.175 [Port] 0 [Flags] 2 [Guid] 3141287750 [EditorId] 3141287750 [Version] 1048832 [Id] WindowsEditor(7,verdenkaa-desc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2216] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2216] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17116] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17116] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 13.37 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 14.50 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.31f1 (a206c360e2a8)
 [Subsystems] Discovering subsystems at path E:/Programs/unity/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
@@ -91,43 +91,43 @@ Initialize mono
 Mono path[0] = 'E:/Programs/unity/6000.0.31f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programs/unity/6000.0.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Programs/unity/6000.0.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Programs/unity/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002486 seconds.
-- Loaded All Assemblies, in  0.474 seconds
+Registered in 0.002589 seconds.
+- Loaded All Assemblies, in  0.592 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.417 seconds
-Domain Reload Profiling: 891ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  0.544 seconds
+Domain Reload Profiling: 1136ms
+	BeginReloadAssembly (201ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (185ms)
-		LoadAssemblies (166ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (200ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (165ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (212ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (418ms)
+	FinalizeReload (545ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (363ms)
+		SetupLoadedEditorAssemblies (473ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (190ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (237ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -136,10 +136,10 @@ Domain Reload Profiling: 891ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.900 seconds
+- Loaded All Assemblies, in  1.110 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 9.59 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 9.52 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -177,63 +177,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.157 seconds
-Domain Reload Profiling: 2056ms
-	BeginReloadAssembly (198ms)
+- Finished resetting the current domain, in  1.203 seconds
+Domain Reload Profiling: 2313ms
+	BeginReloadAssembly (259ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (596ms)
-		LoadAssemblies (376ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (723ms)
+		LoadAssemblies (474ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (340ms)
-			TypeCache.Refresh (243ms)
-				TypeCache.ScanAssembly (224ms)
-			BuildScriptInfoCaches (79ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1158ms)
+		AnalyzeDomain (402ms)
+			TypeCache.Refresh (288ms)
+				TypeCache.ScanAssembly (264ms)
+			BuildScriptInfoCaches (91ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1204ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (952ms)
+		SetupLoadedEditorAssemblies (989ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (605ms)
-			ProcessInitializeOnLoadMethodAttributes (210ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (607ms)
+			ProcessInitializeOnLoadMethodAttributes (236ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 9.03 ms, found 9 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 11.11 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 239 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5589 unused Assets / (6.2 MB). Loaded Objects now: 6247.
-Memory consumption went from 166.6 MB to 160.4 MB.
-Total: 12.749100 ms (FindLiveObjects: 0.769100 ms CreateObjectMapping: 0.684400 ms MarkObjects: 7.056100 ms  DeleteObjects: 4.238000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 5119.029912 seconds.
-  path: Assets/!project/3d models/Rus/izba/textures_unity/brevno_long/3/brevno_long_Материал_Height.png
-  artifactKey: Guid(55bde2675fc4e114ca107f7980974d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/izba/textures_unity/brevno_long/3/brevno_long_Материал_Height.png using Guid(55bde2675fc4e114ca107f7980974d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbd122a35f2c9189542c8c4bbf37ac88') in 0.1096113 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/!project/3d models/Rus/izba/textures_unity/brevno_long/3/brevno_long_Материал_Normal.png
-  artifactKey: Guid(8cc980217150dec4885deaeef2366ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/izba/textures_unity/brevno_long/3/brevno_long_Материал_Normal.png using Guid(8cc980217150dec4885deaeef2366ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25912443b076b7e122dcf46cbd11b58c') in 0.0240267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Unloading 5589 unused Assets / (7.4 MB). Loaded Objects now: 6247.
+Memory consumption went from 165.0 MB to 157.6 MB.
+Total: 14.606600 ms (FindLiveObjects: 0.903700 ms CreateObjectMapping: 0.402500 ms MarkObjects: 6.982700 ms  DeleteObjects: 6.316400 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

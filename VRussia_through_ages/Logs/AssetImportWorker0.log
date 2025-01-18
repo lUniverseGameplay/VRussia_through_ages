@@ -15,7 +15,7 @@ E:/Projects/VRussia_through_ages/VRussia_through_ages
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53670
+60244
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ E:/Projects/VRussia_through_ages/VRussia_through_ages
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7036]  Target information:
+Player connection [22808]  Target information:
 
-Player connection [7036]  * "[IP] 192.168.1.175 [Port] 0 [Flags] 2 [Guid] 610943582 [EditorId] 610943582 [Version] 1048832 [Id] WindowsEditor(7,verdenkaa-desc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22808]  * "[IP] 192.168.1.175 [Port] 0 [Flags] 2 [Guid] 4103357034 [EditorId] 4103357034 [Version] 1048832 [Id] WindowsEditor(7,verdenkaa-desc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7036] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7036] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22808] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22808] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 14.21 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 12.79 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.31f1 (a206c360e2a8)
 [Subsystems] Discovering subsystems at path E:/Programs/unity/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
@@ -91,43 +91,43 @@ Initialize mono
 Mono path[0] = 'E:/Programs/unity/6000.0.31f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programs/unity/6000.0.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Programs/unity/6000.0.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Programs/unity/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002743 seconds.
-- Loaded All Assemblies, in  0.589 seconds
+Registered in 0.002962 seconds.
+- Loaded All Assemblies, in  0.508 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.496 seconds
-Domain Reload Profiling: 1085ms
-	BeginReloadAssembly (208ms)
+- Finished resetting the current domain, in  0.471 seconds
+Domain Reload Profiling: 979ms
+	BeginReloadAssembly (181ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (237ms)
-		LoadAssemblies (207ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (180ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (229ms)
-				TypeCache.ScanAssembly (212ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (177ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (496ms)
+	FinalizeReload (472ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (430ms)
+		SetupLoadedEditorAssemblies (410ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (225ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -136,10 +136,10 @@ Domain Reload Profiling: 1085ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.168 seconds
+- Loaded All Assemblies, in  1.101 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 10.14 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 9.46 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -177,326 +177,159 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.248 seconds
-Domain Reload Profiling: 2414ms
-	BeginReloadAssembly (236ms)
+- Finished resetting the current domain, in  1.107 seconds
+Domain Reload Profiling: 2207ms
+	BeginReloadAssembly (238ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (51ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (54ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (816ms)
-		LoadAssemblies (556ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (746ms)
+		LoadAssemblies (526ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (405ms)
-			TypeCache.Refresh (297ms)
-				TypeCache.ScanAssembly (272ms)
-			BuildScriptInfoCaches (88ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1249ms)
+		AnalyzeDomain (375ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (249ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1107ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1031ms)
+		SetupLoadedEditorAssemblies (907ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (651ms)
-			ProcessInitializeOnLoadMethodAttributes (221ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (213ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 9.64 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 9.63 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 270 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5678 unused Assets / (8.0 MB). Loaded Objects now: 6363.
-Memory consumption went from 190.2 MB to 182.3 MB.
-Total: 17.485100 ms (FindLiveObjects: 1.067200 ms CreateObjectMapping: 1.078200 ms MarkObjects: 9.013300 ms  DeleteObjects: 6.324200 ms)
+Unloading 240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5587 unused Assets / (6.7 MB). Loaded Objects now: 6253.
+Memory consumption went from 168.2 MB to 161.5 MB.
+Total: 13.703900 ms (FindLiveObjects: 0.963100 ms CreateObjectMapping: 0.867300 ms MarkObjects: 6.882700 ms  DeleteObjects: 4.989000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 267809.159874 seconds.
-  path: Assets/#NVJOB Water Shaders V2/#NVJOB Water Shaders V2
-  artifactKey: Guid(f6083c3d3e2e4dc9ba0d90e7ad7bb88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/#NVJOB Water Shaders V2 using Guid(f6083c3d3e2e4dc9ba0d90e7ad7bb88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42b9afaab39edc69d81a8405f3280960') in 0.0067651 seconds
+  Time since last request: 168880.099602 seconds.
+  path: Assets/!project/3d models/Rus/objects/kosa/kosa_hp.fbx
+  artifactKey: Guid(45adaa5598d55574782a258b0c5138d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kosa/kosa_hp.fbx using Guid(45adaa5598d55574782a258b0c5138d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f7b3b6f542e9ae845eda595fedc13d6') in 0.6689181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.908084 seconds.
+  path: Assets/!project/3d models/Rus/objects/kosa/kosa.prefab
+  artifactKey: Guid(1848157e0fade3a4c8845caf18b19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kosa/kosa.prefab using Guid(1848157e0fade3a4c8845caf18b19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6f75b1f6a9a58f0165eb92b6e22b884') in 0.0817389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.940670 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh
+  artifactKey: Guid(207efb852d168134da2de8b204b8aea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh using Guid(207efb852d168134da2de8b204b8aea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32c9be32c8ab2cfeb939c223efe129a5') in 0.0007656 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/#NVJOB Water Shaders V2
-  artifactKey: Guid(5289aa30640f4624f84d33e0690a0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2 using Guid(5289aa30640f4624f84d33e0690a0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bb865621006d5a996ff668039b3cac9') in 0.0005274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.567738 seconds.
-  path: Assets/#NVJOB Water Shaders V2/#NVJOB Water Shaders V2/Water Specular.shader
-  artifactKey: Guid(104cb0e3a7464a3696069ea84b145eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/#NVJOB Water Shaders V2/Water Specular.shader using Guid(104cb0e3a7464a3696069ea84b145eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4999125163d97ca35577142fb1833a0a') in 0.0183517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.936784 seconds.
-  path: Assets/#NVJOB Water Shaders V2/#NVJOB Water Shaders V2/Water Surface.shader
-  artifactKey: Guid(cab0bc95e1ce4946a1298a052a7d1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/#NVJOB Water Shaders V2/Water Surface.shader using Guid(cab0bc95e1ce4946a1298a052a7d1d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f18c811686ae99786ada29da0d46958') in 0.0009303 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.958279 seconds.
-  path: Assets/#NVJOB Water Shaders V2/#NVJOB Water Shaders V2/Editor
-  artifactKey: Guid(0e53b67aadfd458f956ab638bb60e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/#NVJOB Water Shaders V2/Editor using Guid(0e53b67aadfd458f956ab638bb60e0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f95adc1bf64676f89b2580a606504434') in 0.0006635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.507515 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water
-  artifactKey: Guid(4d66bb35da4b4f5780bce9b06aed6027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water using Guid(4d66bb35da4b4f5780bce9b06aed6027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0698e992f6e671c72b04410f37af11a') in 0.0005461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.893922 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs
-  artifactKey: Guid(a6a9676dab84481793066ac06b79d651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs using Guid(a6a9676dab84481793066ac06b79d651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67b60337799a96013988e68b5b2bce4f') in 0.0005783 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030815 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Specular.prefab
-  artifactKey: Guid(a3b85ee7155343c0a5077c56fdbddf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Specular.prefab using Guid(a3b85ee7155343c0a5077c56fdbddf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9458fc7e23f7e41b5c2321ed764a0b0a') in 0.5771461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Surface Mirror.prefab
-  artifactKey: Guid(28ab203a6204400b853fcf56294ef10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Prefabs/Water Surface Mirror.prefab using Guid(28ab203a6204400b853fcf56294ef10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24522929e96e1dd0faa3f78cd2858334') in 0.0239794 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.439068 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Materials
-  artifactKey: Guid(44024c670b5149d2874d77f93a0a93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Materials using Guid(44024c670b5149d2874d77f93a0a93ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b89f54b2bdf6cd558f3e9870df0240f8') in 0.0005957 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005122 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Materials/Water Specular.mat
-  artifactKey: Guid(cb828776dbc84113ad97bd57cdf21b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Materials/Water Specular.mat using Guid(cb828776dbc84113ad97bd57cdf21b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f2049e911507537e0a6878ecf12a099') in 0.0508984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Materials/Water Surface.mat
-  artifactKey: Guid(4ebf5c060eba48729e051aead702c3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Materials/Water Surface.mat using Guid(4ebf5c060eba48729e051aead702c3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84e77bbcb4ecfaf9cdc5d7e9f5ba43fa') in 0.0168086 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.087700 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Materials/Textures/Water A 0.png
-  artifactKey: Guid(d6840f77873948aeba2cdce3985ccf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Materials/Textures/Water A 0.png using Guid(d6840f77873948aeba2cdce3985ccf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22d173f5887434395b07e82cfce72037') in 0.0321089 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Materials/Textures/Water N 0.png
-  artifactKey: Guid(e7ee2ee1e448437e8de9a957ccc37298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Materials/Textures/Water N 0.png using Guid(e7ee2ee1e448437e8de9a957ccc37298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a56b731903a7f7ffd503deef066e4d8c') in 0.0315137 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/#NVJOB Water Shaders V2/Examples Water/Materials/Textures/Water N 1.png
-  artifactKey: Guid(b4b23fc51ba94ffab43b9704acdd1bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Water Shaders V2/Examples Water/Materials/Textures/Water N 1.png using Guid(b4b23fc51ba94ffab43b9704acdd1bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e3ecc1557db12ae2d122558ebbe1e97') in 0.0184181 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 12.33 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5520 unused Assets / (7.6 MB). Loaded Objects now: 6451.
-Memory consumption went from 161.9 MB to 154.4 MB.
-Total: 30.716400 ms (FindLiveObjects: 1.280200 ms CreateObjectMapping: 1.606100 ms MarkObjects: 19.650200 ms  DeleteObjects: 8.177800 ms)
-
-Prepare: number of updated asset objects reloaded= 27
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.213 seconds
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 13.05 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
-  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Projects\VRussia_through_ages\VRussia_through_ages\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
-   --- End of inner exception stack trace ---
-  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
-  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <e6ff5fa81f7b4f289fd2b129b5dcbaee>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.336 seconds
-Domain Reload Profiling: 2553ms
-	BeginReloadAssembly (369ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (51ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (89ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (736ms)
-		LoadAssemblies (572ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (320ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (278ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1336ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1050ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (169ms)
-			ProcessInitializeOnLoadAttributes (710ms)
-			ProcessInitializeOnLoadMethodAttributes (156ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 10.06 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 72 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5587 unused Assets / (7.0 MB). Loaded Objects now: 6337.
-Memory consumption went from 184.9 MB to 177.9 MB.
-Total: 16.409600 ms (FindLiveObjects: 0.882600 ms CreateObjectMapping: 0.463300 ms MarkObjects: 9.602700 ms  DeleteObjects: 5.459400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 110.872987 seconds.
-  path: Assets/!project/3d models/Rus/objects/stol/stol_hp.fbx
-  artifactKey: Guid(7c0a1dea24ba2744390840ae631857aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/stol/stol_hp.fbx using Guid(7c0a1dea24ba2744390840ae631857aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcc6e0ef5ff3251817a1f5d4ea3b1c5a') in 0.5932442 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/!project/3d models/Rus/objects/stol/stol_lp.fbx
-  artifactKey: Guid(f7b4047656cbadc4b82971db4856cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/stol/stol_lp.fbx using Guid(f7b4047656cbadc4b82971db4856cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64dbdfa12071c8db9cadb4c9576ecd5a') in 0.0308924 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh1.fbx
+  artifactKey: Guid(68cd7a1a8be0e064c8b45d0c0677b52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh1.fbx using Guid(68cd7a1a8be0e064c8b45d0c0677b52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51e98e9029997e9a9cc3445660c85db3') in 0.1061593 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.238263 seconds.
-  path: Assets/!project/3d models/Rus/objects/stol/stol_textur/Материал_Height.png
-  artifactKey: Guid(f741626d12e2a4c47966c3e9a9e1262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/stol/stol_textur/Материал_Height.png using Guid(f741626d12e2a4c47966c3e9a9e1262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49498ed63a49e5387cf8b803ff3d219b') in 0.0321346 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh_mp.fbx
+  artifactKey: Guid(3b4139d250376e844bb0a37d6187c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh_mp.fbx using Guid(3b4139d250376e844bb0a37d6187c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6df726512830895a3b255930d035731') in 0.0220038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.605421 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/textur
+  artifactKey: Guid(55bb8d79e059d8143b1228f84a3b6bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/textur using Guid(55bb8d79e059d8143b1228f84a3b6bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6976d36c74da9cb286302fa313e5c65e') in 0.0006312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025613 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh1_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(d888f843936f81148ac64e2d861959f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh1_DefaultMaterial_AlbedoTransparency.png using Guid(d888f843936f81148ac64e2d861959f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce44969e48f63e6ec8505a1961977af8') in 0.0431321 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.751072 seconds.
-  path: Assets/!project/3d models/Rus/objects/Печь каменка/pech_hp.fbx
-  artifactKey: Guid(be238411ae45e1a47a0c9b23fa2f4713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/Печь каменка/pech_hp.fbx using Guid(be238411ae45e1a47a0c9b23fa2f4713) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7abc03ba859411745d162e7cca5601d') in 0.2464745 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+  Time since last request: 0.000027 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh1_DefaultMaterial_Normal.png
+  artifactKey: Guid(7b60bde1d5057d54ca21236ac5ccb277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh1_DefaultMaterial_Normal.png using Guid(7b60bde1d5057d54ca21236ac5ccb277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c69916270410098ba6320bcae76f6e0') in 0.0216825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/!project/3d models/Rus/objects/Печь каменка/pech_lp.fbx
-  artifactKey: Guid(7170730257098ff4daa7dc7eb8a5d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/Печь каменка/pech_lp.fbx using Guid(7170730257098ff4daa7dc7eb8a5d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e5a5b816fac61140bdf0cb2a42f30e1') in 0.2042438 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 91
+  Time since last request: 34.234428 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh1_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(d888f843936f81148ac64e2d861959f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh1_DefaultMaterial_AlbedoTransparency.png using Guid(d888f843936f81148ac64e2d861959f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb1d31ee3c75e2eec38461080316bee6') in 0.0231154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
-Received Prepare
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 11.35 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 56 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5542 unused Assets / (7.4 MB). Loaded Objects now: 6470.
-Memory consumption went from 166.3 MB to 159.0 MB.
-Total: 18.305600 ms (FindLiveObjects: 1.073400 ms CreateObjectMapping: 1.073900 ms MarkObjects: 10.620000 ms  DeleteObjects: 5.535800 ms)
+Received Import Request.
+  Time since last request: 49.887720 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh1_DefaultMaterial_Normal.png
+  artifactKey: Guid(7b60bde1d5057d54ca21236ac5ccb277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh1_DefaultMaterial_Normal.png using Guid(7b60bde1d5057d54ca21236ac5ccb277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2a70cd7bd078d2333292ef6bc324328') in 0.0443591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.089755 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh.mat
+  artifactKey: Guid(98842c0270b369245b23ef738381b254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh.mat using Guid(98842c0270b369245b23ef738381b254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39a422591a9dd1008d98df7c6c189470') in 0.0353978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 776.958333 seconds.
+  path: Assets/From starter/VRTemplateAssets/Materials/Primitive/Interactables.physicMaterial
+  artifactKey: Guid(10bde48ef542d6a4fbee12145283824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/From starter/VRTemplateAssets/Materials/Primitive/Interactables.physicMaterial using Guid(10bde48ef542d6a4fbee12145283824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61be2908d180b89c0f0f63d78babfbb0') in 0.0018717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/From starter/VRTemplateAssets/Materials/Primitive/Sticky.physicMaterial
+  artifactKey: Guid(93fd3ce14e8045645a179db0bfce7ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/From starter/VRTemplateAssets/Materials/Primitive/Sticky.physicMaterial using Guid(93fd3ce14e8045645a179db0bfce7ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6773a43ed81d2738f2ef978925b62ee') in 0.0011969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.966 seconds
+- Loaded All Assemblies, in  0.976 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 9.75 ms, found 9 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
+Refreshing native plugins compatible for Editor in 9.48 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -529,277 +362,55 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.170 seconds
-Domain Reload Profiling: 2139ms
-	BeginReloadAssembly (296ms)
+- Finished resetting the current domain, in  1.165 seconds
+Domain Reload Profiling: 2143ms
+	BeginReloadAssembly (282ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (28ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (83ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (570ms)
-		LoadAssemblies (428ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (279ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (245ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1171ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (924ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (133ms)
-			ProcessInitializeOnLoadAttributes (632ms)
-			ProcessInitializeOnLoadMethodAttributes (147ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.45 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 76 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5608 unused Assets / (8.5 MB). Loaded Objects now: 6371.
-Memory consumption went from 189.3 MB to 180.8 MB.
-Total: 11.878800 ms (FindLiveObjects: 0.820800 ms CreateObjectMapping: 0.343600 ms MarkObjects: 5.691100 ms  DeleteObjects: 5.022000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 79.750218 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat
-  artifactKey: Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat using Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0d205b15250847e41f793fcbf3d8a29') in 0.5393347 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.453632 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Bush_01.fbx
-  artifactKey: Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Bush_01.fbx using Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cf06b17e59d2984498eb5dbe6a5ed2c') in 0.0603655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Rock_02.fbx
-  artifactKey: Guid(3a775dc2c1a334b45a5667a56fe92c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Rock_02.fbx using Guid(3a775dc2c1a334b45a5667a56fe92c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47b4d5e235cc7bfed434b8c72362c2b5') in 0.0227816 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Mushroom_01.fbx
-  artifactKey: Guid(d062f5c56ffb55c4f832432ada269abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Mushroom_01.fbx using Guid(d062f5c56ffb55c4f832432ada269abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae24901bf610856763b0334edf5d2c8f') in 0.0295843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Tree_02.fbx
-  artifactKey: Guid(4471b1f7f824e4d44887e1364c6fc61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Tree_02.fbx using Guid(4471b1f7f824e4d44887e1364c6fc61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93ca67fedcf919d5c71ee890330f485b') in 0.0215498 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Ground_02.fbx
-  artifactKey: Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Ground_02.fbx using Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5aa86582c6348a21b6656c867027d67a') in 0.0214401 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Bush_03.fbx
-  artifactKey: Guid(7b5a098d913a3c74692a2a9963dbd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Bush_03.fbx using Guid(7b5a098d913a3c74692a2a9963dbd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ad3718f736be602e1eaebc7d798a601') in 0.0284383 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Tree_05.fbx
-  artifactKey: Guid(603970f97e50c56488ec3c5a6febd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Tree_05.fbx using Guid(603970f97e50c56488ec3c5a6febd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a088fed1011925347325e0eb9bbbb8c9') in 0.0221969 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Tree_03.fbx
-  artifactKey: Guid(69f0af3a0a6c73b4ab4b89eb82cdc488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Tree_03.fbx using Guid(69f0af3a0a6c73b4ab4b89eb82cdc488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68dbb9fc0a31779ce5d5ec29cd61ae29') in 0.0270782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Mushroom_02.fbx
-  artifactKey: Guid(6c890c97a154a474082af84a379dffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Mushroom_02.fbx using Guid(6c890c97a154a474082af84a379dffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71efbf1b20d68cd9818e1c0efa583d46') in 0.0284392 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Flowers_02.fbx
-  artifactKey: Guid(8ea980fdc4aa5e749b000c1a0d4b9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Flowers_02.fbx using Guid(8ea980fdc4aa5e749b000c1a0d4b9bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '984c551fe49e0f3fa8f2a2e1a7ed3306') in 0.025447 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Rock_01.fbx
-  artifactKey: Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Rock_01.fbx using Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '928474ec9ca81a9388d38aa6ce8e0942') in 0.0255577 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Flowers_01.fbx
-  artifactKey: Guid(b5a80b3e2a089b841b155d7c7f461e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Imported/SimpleNaturePack/Models/Flowers_01.fbx using Guid(b5a80b3e2a089b841b155d7c7f461e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f93631b141d31616c7d64bc1ee3f28e') in 0.0308442 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.907863 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Shaders/TimeTilingAndOffset.shadersubgraph
-  artifactKey: Guid(0314d42934d8844d1934f0b55f2c9b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Shaders/TimeTilingAndOffset.shadersubgraph using Guid(0314d42934d8844d1934f0b55f2c9b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e89401f76eaa3a711a8ddd02080f0eff') in 0.0032817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.798613 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Materials/Grass.mat
-  artifactKey: Guid(0507de2910c7f40dfbdc0de9fcb56e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Materials/Grass.mat using Guid(0507de2910c7f40dfbdc0de9fcb56e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e9243ab7867e100a0c149a78d9a0e17') in 0.5271715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.082870 seconds.
-  path: Assets/!project/Environment/Materials/water/Assets/Materials/Water/LakeWater.mat
-  artifactKey: Guid(eb1a3b777968744868a8f0b3f28d37d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/Environment/Materials/water/Assets/Materials/Water/LakeWater.mat using Guid(eb1a3b777968744868a8f0b3f28d37d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0eda76364dbfc03f2cf4fad36a75e832') in 0.7506427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Prepare
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 16.18 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5521 unused Assets / (7.0 MB). Loaded Objects now: 6485.
-Memory consumption went from 162.1 MB to 155.1 MB.
-Total: 20.786300 ms (FindLiveObjects: 1.244500 ms CreateObjectMapping: 1.418400 ms MarkObjects: 11.457400 ms  DeleteObjects: 6.664000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.151 seconds
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 13.13 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
-  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Projects\VRussia_through_ages\VRussia_through_ages\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
-   --- End of inner exception stack trace ---
-  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
-  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <e6ff5fa81f7b4f289fd2b129b5dcbaee>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.347 seconds
-Domain Reload Profiling: 2501ms
-	BeginReloadAssembly (326ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (31ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (95ms)
+		CreateAndSetChildDomain (76ms)
 	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (721ms)
-		LoadAssemblies (485ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (597ms)
+		LoadAssemblies (429ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (377ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (338ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1348ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (264ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1166ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1075ms)
+		SetupLoadedEditorAssemblies (901ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (163ms)
-			ProcessInitializeOnLoadAttributes (731ms)
-			ProcessInitializeOnLoadMethodAttributes (166ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (606ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.58 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 10.26 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5587 unused Assets / (6.8 MB). Loaded Objects now: 6386.
-Memory consumption went from 183.5 MB to 176.7 MB.
-Total: 15.006300 ms (FindLiveObjects: 1.180700 ms CreateObjectMapping: 0.680900 ms MarkObjects: 7.365200 ms  DeleteObjects: 5.777800 ms)
+Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5586 unused Assets / (7.5 MB). Loaded Objects now: 6341.
+Memory consumption went from 205.4 MB to 197.9 MB.
+Total: 15.147700 ms (FindLiveObjects: 1.047100 ms CreateObjectMapping: 0.657200 ms MarkObjects: 7.133800 ms  DeleteObjects: 6.307700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.919 seconds
+- Loaded All Assemblies, in  0.923 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 9.59 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 9.89 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -832,116 +443,215 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.134 seconds
-Domain Reload Profiling: 2054ms
-	BeginReloadAssembly (279ms)
+- Finished resetting the current domain, in  1.147 seconds
+Domain Reload Profiling: 2072ms
+	BeginReloadAssembly (246ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (47ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (545ms)
-		LoadAssemblies (415ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (585ms)
+		LoadAssemblies (412ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (270ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (239ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1134ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (271ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1148ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (876ms)
+		SetupLoadedEditorAssemblies (908ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (560ms)
-			ProcessInitializeOnLoadMethodAttributes (172ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (614ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (15ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 10.84 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 9.34 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5588 unused Assets / (7.9 MB). Loaded Objects now: 6390.
-Memory consumption went from 183.4 MB to 175.5 MB.
-Total: 13.546800 ms (FindLiveObjects: 0.939200 ms CreateObjectMapping: 0.480700 ms MarkObjects: 6.801800 ms  DeleteObjects: 5.323500 ms)
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5585 unused Assets / (7.7 MB). Loaded Objects now: 6344.
+Memory consumption went from 180.9 MB to 173.2 MB.
+Total: 12.262200 ms (FindLiveObjects: 0.796200 ms CreateObjectMapping: 0.480600 ms MarkObjects: 6.243100 ms  DeleteObjects: 4.740600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 124.516912 seconds.
-  path: Assets/Simple Water Shader HDRP/Prefabs/Example 2.prefab
-  artifactKey: Guid(638b2f6044371c2488105dc903823405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Prefabs/Example 2.prefab using Guid(638b2f6044371c2488105dc903823405) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f31c209bae25447a7107a3734efb3578') in 0.5493094 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+  Time since last request: 528.751595 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh1.fbx
+  artifactKey: Guid(68cd7a1a8be0e064c8b45d0c0677b52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh1.fbx using Guid(68cd7a1a8be0e064c8b45d0c0677b52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87e8233779dcaebe43432d031cc0d750') in 0.5836257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.726537 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh_hp.fbx
+  artifactKey: Guid(00a9496eb86857a42be82e6995a5cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh_hp.fbx using Guid(00a9496eb86857a42be82e6995a5cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30f1bac4517638ecfb5f95f9fcf100c2') in 0.0231462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.639594 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh_lp.fbx
+  artifactKey: Guid(7f828f3ac3057b647972c5a5ae962b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh_lp.fbx using Guid(7f828f3ac3057b647972c5a5ae962b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7452acaa339559657130589b4174656') in 0.0209847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.773687 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh_mp.fbx
+  artifactKey: Guid(3b4139d250376e844bb0a37d6187c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh_mp.fbx using Guid(3b4139d250376e844bb0a37d6187c93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f777f45ea3d0564eecc10d80bcde590f') in 0.0224947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.480115 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh.prefab
+  artifactKey: Guid(b775028e606ed9e46bd44160b86474a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh.prefab using Guid(b775028e606ed9e46bd44160b86474a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '097802b4a6b77f4ad2ff2bca69c847ea') in 0.091403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.831836 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka
+  artifactKey: Guid(d0993d2185e9c97448d1ea636b40d47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka using Guid(d0993d2185e9c97448d1ea636b40d47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '288adf12ef87124079d45f9b04bcf6ed') in 0.0006272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093612 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/Lavka6.fbx
+  artifactKey: Guid(170401238125b4d4aa61ff0a20bcafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/Lavka6.fbx using Guid(170401238125b4d4aa61ff0a20bcafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a25ff0bd86a629e37400d8132a519ff6') in 0.0582025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/Lavka_mp.fbx
+  artifactKey: Guid(5cdc959a0cf317644a9a54427c82bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/Lavka_mp.fbx using Guid(5cdc959a0cf317644a9a54427c82bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b929c4b1bd842428db8eaedf865e2eb3') in 0.0258337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Simple Water Shader HDRP/Prefabs/Example 3.prefab
-  artifactKey: Guid(3f16941b9b36f414a95992d27425ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Prefabs/Example 3.prefab using Guid(3f16941b9b36f414a95992d27425ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68519ccd6ca9c2c333d5bbccc0ebaeb3') in 0.0314452 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+  path: Assets/!project/3d models/Rus/objects/Lavka/Lavka_lp.fbx
+  artifactKey: Guid(fc44e079d419b5d4db0a3c3fa4c5d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/Lavka_lp.fbx using Guid(fc44e079d419b5d4db0a3c3fa4c5d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6530011fa1b3c948fa1410254c8cddcf') in 0.0254138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.184680 seconds.
-  path: Assets/Simple Water Shader HDRP/Materials/Terrain Layer 2.terrainlayer
-  artifactKey: Guid(0551f4f590362a24ca560bad0a941c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Materials/Terrain Layer 2.terrainlayer using Guid(0551f4f590362a24ca560bad0a941c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0802352e94d874c74c9b6f346ccde7f') in 0.0422923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 1.527082 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/textur
+  artifactKey: Guid(5002c3a21ac2bfa449dfb3aacf97d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/textur using Guid(5002c3a21ac2bfa449dfb3aacf97d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18ef051499bfac4e35b3dd6d4d323e17') in 0.0006678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Simple Water Shader HDRP/Materials/Water_mat_01.mat
-  artifactKey: Guid(85cb1dd88820e214e8fe125a59fad88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Materials/Water_mat_01.mat using Guid(85cb1dd88820e214e8fe125a59fad88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dad5a6353a37567e4307c9afb4ebfb8') in 0.034239 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Simple Water Shader HDRP/Materials/Water_mat_04.mat
-  artifactKey: Guid(ba83f096c38203e43bce0e25c2e7f7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Materials/Water_mat_04.mat using Guid(ba83f096c38203e43bce0e25c2e7f7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49472bcf032d0d0cc15a56ffdcb16cd4') in 0.0112986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.253859 seconds.
-  path: Assets/Simple Water Shader HDRP/Textures/WaterSurface_single.tif
-  artifactKey: Guid(37f38e7050b320748b86f45dd1ac5d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Textures/WaterSurface_single.tif using Guid(37f38e7050b320748b86f45dd1ac5d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c631844a17dec535ff65ca367f0e2848') in 0.0270821 seconds
+  Time since last request: 0.041533 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_AlbedoTransparency.png
+  artifactKey: Guid(31f2ec4b7c0c49443ab7f8983a5b9015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_AlbedoTransparency.png using Guid(31f2ec4b7c0c49443ab7f8983a5b9015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af672c8e46ae7488d3f2363b653401b5') in 0.032945 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
-Received Prepare
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 12.93 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5521 unused Assets / (7.3 MB). Loaded Objects now: 6513.
-Memory consumption went from 162.0 MB to 154.8 MB.
-Total: 19.410500 ms (FindLiveObjects: 1.083800 ms CreateObjectMapping: 0.673700 ms MarkObjects: 10.050800 ms  DeleteObjects: 7.599900 ms)
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_Normal.png
+  artifactKey: Guid(a89877712b5b01a43a40c08ab6eb07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_Normal.png using Guid(a89877712b5b01a43a40c08ab6eb07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '616a579d4e05ef92cd2dcb596743c5b1') in 0.0291371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.730337 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_AlbedoTransparency.png
+  artifactKey: Guid(31f2ec4b7c0c49443ab7f8983a5b9015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_AlbedoTransparency.png using Guid(31f2ec4b7c0c49443ab7f8983a5b9015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50e86114c0ea8a8227747c6a1110a73b') in 0.0226895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.949283 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_MetallicSmoothness.png
+  artifactKey: Guid(29455b354ff27d743a91d0c415fee4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_MetallicSmoothness.png using Guid(29455b354ff27d743a91d0c415fee4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3addb6afe2c5f90f3ace927a88fe6201') in 0.0177622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.464800 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_Normal.png
+  artifactKey: Guid(a89877712b5b01a43a40c08ab6eb07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_Normal.png using Guid(a89877712b5b01a43a40c08ab6eb07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dc87a1d2b76dbaa674c038caaa32669') in 0.0231736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.109357 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/textur/lavka.mat
+  artifactKey: Guid(999c7258ce7c55942ba3bfc35cbad3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/textur/lavka.mat using Guid(999c7258ce7c55942ba3bfc35cbad3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72cfd86bf65646d9dd74ad813c786860') in 0.0158022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.791560 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_Normal.png
+  artifactKey: Guid(a89877712b5b01a43a40c08ab6eb07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_Normal.png using Guid(a89877712b5b01a43a40c08ab6eb07ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '139835df2ecc7fd689cf07ba156bd18d') in 0.0328871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.762992 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/Lavka_hp.fbx
+  artifactKey: Guid(88898438c304a2b4babf96fe38cba873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/Lavka_hp.fbx using Guid(88898438c304a2b4babf96fe38cba873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9608e98c8b44158bc77e5478628b5b15') in 0.0327541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.101516 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/Lavka_lp.fbx
+  artifactKey: Guid(fc44e079d419b5d4db0a3c3fa4c5d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/Lavka_lp.fbx using Guid(fc44e079d419b5d4db0a3c3fa4c5d30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a2f82ae55e46e8d9144ebc653d19d54') in 0.030196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.777508 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/Lavka_mp.fbx
+  artifactKey: Guid(5cdc959a0cf317644a9a54427c82bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/Lavka_mp.fbx using Guid(5cdc959a0cf317644a9a54427c82bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04e359b0ff435402277de27610236120') in 0.0289619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.170 seconds
+- Loaded All Assemblies, in  0.968 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 11.20 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 10.02 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -974,55 +684,272 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.269 seconds
-Domain Reload Profiling: 2443ms
-	BeginReloadAssembly (359ms)
+- Finished resetting the current domain, in  1.168 seconds
+Domain Reload Profiling: 2138ms
+	BeginReloadAssembly (281ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (34ms)
+		DisableScriptedObjects (27ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (93ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (693ms)
-		LoadAssemblies (527ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (594ms)
+		LoadAssemblies (432ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (339ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (288ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1269ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (266ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1169ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1010ms)
+		SetupLoadedEditorAssemblies (922ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (632ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.77 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5586 unused Assets / (7.3 MB). Loaded Objects now: 6367.
+Memory consumption went from 181.1 MB to 173.8 MB.
+Total: 11.618000 ms (FindLiveObjects: 0.778100 ms CreateObjectMapping: 0.359300 ms MarkObjects: 6.175800 ms  DeleteObjects: 4.302800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.911 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.87 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Projects\VRussia_through_ages\VRussia_through_ages\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <e6ff5fa81f7b4f289fd2b129b5dcbaee>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.149 seconds
+Domain Reload Profiling: 2063ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (574ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (250ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (902ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (156ms)
-			ProcessInitializeOnLoadAttributes (683ms)
-			ProcessInitializeOnLoadMethodAttributes (157ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (603ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (15ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.45 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 9.17 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5587 unused Assets / (7.2 MB). Loaded Objects now: 6414.
-Memory consumption went from 183.5 MB to 176.2 MB.
-Total: 11.585900 ms (FindLiveObjects: 0.820200 ms CreateObjectMapping: 0.386300 ms MarkObjects: 5.858400 ms  DeleteObjects: 4.519000 ms)
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5585 unused Assets / (6.9 MB). Loaded Objects now: 6370.
+Memory consumption went from 180.9 MB to 174.0 MB.
+Total: 12.065100 ms (FindLiveObjects: 0.842100 ms CreateObjectMapping: 0.354600 ms MarkObjects: 5.949500 ms  DeleteObjects: 4.917500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+Received Import Request.
+  Time since last request: 295.245566 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/lavka.prefab
+  artifactKey: Guid(c67479588d629d247bdf1351a343b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/lavka.prefab using Guid(c67479588d629d247bdf1351a343b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34eb8f7156db1b74c15cb0779359e3ef') in 0.5443185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.600757 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka
+  artifactKey: Guid(4068a183bfb18a84697a303d6385f12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka using Guid(4068a183bfb18a84697a303d6385f12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5531ac6294f106ec5980188485172a72') in 0.0007204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017697 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/lozhka9.fbx
+  artifactKey: Guid(3f87316fcc0c3374a8e7010f2bc21490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/lozhka9.fbx using Guid(3f87316fcc0c3374a8e7010f2bc21490) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8844d96dd44b5b527b45babe28bb443a') in 0.0356937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/lozhka_lp.fbx
+  artifactKey: Guid(f3ed316417d0e3d4bbec032fbe4d1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/lozhka_lp.fbx using Guid(f3ed316417d0e3d4bbec032fbe4d1969) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53159296087672ab639afbd2cfe7aa0d') in 0.0215407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.361352 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/textur
+  artifactKey: Guid(97bad2d806ee92e4ca93a7e42dd78b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/textur using Guid(97bad2d806ee92e4ca93a7e42dd78b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b070fa61abac2219de3d2f3361d9ec3') in 0.0007587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056563 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/textur/lozhka9_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(76d965ee071be264cb47e0fa99307bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/textur/lozhka9_DefaultMaterial_AlbedoTransparency.png using Guid(76d965ee071be264cb47e0fa99307bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92e919c0df9f06b5e1c36f20cd8fb7d1') in 0.0340842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/textur/lozhka9_DefaultMaterial_Normal.png
+  artifactKey: Guid(13de608afd335b04da95d990df322a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/textur/lozhka9_DefaultMaterial_Normal.png using Guid(13de608afd335b04da95d990df322a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d495b960438901063dee5cf2b8d62fd') in 0.0221407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.592283 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/textur/lozhka9_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(76d965ee071be264cb47e0fa99307bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/textur/lozhka9_DefaultMaterial_AlbedoTransparency.png using Guid(76d965ee071be264cb47e0fa99307bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aea2f04e3c53578d2ed2577e99da8038') in 0.0260158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.350336 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/textur/lozhka9_DefaultMaterial_Normal.png
+  artifactKey: Guid(13de608afd335b04da95d990df322a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/textur/lozhka9_DefaultMaterial_Normal.png using Guid(13de608afd335b04da95d990df322a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '211ef6685c1a711f1670a8075d14e03b') in 0.0305333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.011070 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/textur/lozka.mat
+  artifactKey: Guid(820ecf1fa2680c34bbef0ce273b53133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/textur/lozka.mat using Guid(820ecf1fa2680c34bbef0ce273b53133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b062e39459dfbb23b20d8fb97fa71118') in 0.0263156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.304975 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/lozhka9.fbx
+  artifactKey: Guid(3f87316fcc0c3374a8e7010f2bc21490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/lozhka9.fbx using Guid(3f87316fcc0c3374a8e7010f2bc21490) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86e83e36cadd334ad28020385f662261') in 0.0234756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.996152 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/lozhka_hp.fbx
+  artifactKey: Guid(18345a93a55111145bed97e70d237c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/lozhka_hp.fbx using Guid(18345a93a55111145bed97e70d237c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e87f0fd853db4a153f2e5a47519a2588') in 0.0213291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 304.764182 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/lozka.prefab
+  artifactKey: Guid(cbdb2b25a87b79b47a444692672c1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/lozka.prefab using Guid(cbdb2b25a87b79b47a444692672c1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '526f6d15a1c49778f00ed5ca2ef46ee4') in 0.0359645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.215444 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/lozka.prefab
+  artifactKey: Guid(cbdb2b25a87b79b47a444692672c1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/lozka.prefab using Guid(cbdb2b25a87b79b47a444692672c1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '608bca9d47a749feb6357bbb5f8a7dc0') in 0.0478188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.005077 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha
+  artifactKey: Guid(38bc5224583b72c449aba019a0a4c5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha using Guid(38bc5224583b72c449aba019a0a4c5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18860f6da992bd0d38d4b4c5779f2456') in 0.0008389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013236 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha.fbx
+  artifactKey: Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha.fbx using Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf9d38f93f5c6a2c78b6ce063f8de390') in 0.1357355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha_lp.fbx
+  artifactKey: Guid(6d663f7b7c3ffcd4b8bda7fd80de889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha_lp.fbx using Guid(6d663f7b7c3ffcd4b8bda7fd80de889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3ed653737d953f5085637398aa13947') in 0.0595282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.921 seconds
+- Loaded All Assemblies, in  0.997 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 10.06 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 9.92 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -1055,71 +982,929 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.097 seconds
-Domain Reload Profiling: 2020ms
-	BeginReloadAssembly (261ms)
+- Finished resetting the current domain, in  1.129 seconds
+Domain Reload Profiling: 2128ms
+	BeginReloadAssembly (281ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (24ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (559ms)
-		LoadAssemblies (422ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (624ms)
+		LoadAssemblies (464ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (269ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (237ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (258ms)
 			ResolveRequiredComponents (15ms)
-	FinalizeReload (1098ms)
+	FinalizeReload (1130ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (843ms)
+		SetupLoadedEditorAssemblies (890ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (563ms)
-			ProcessInitializeOnLoadMethodAttributes (141ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (602ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 9.62 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 9.82 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5590 unused Assets / (7.5 MB). Loaded Objects now: 6420.
-Memory consumption went from 183.6 MB to 176.0 MB.
-Total: 11.847200 ms (FindLiveObjects: 0.835500 ms CreateObjectMapping: 0.382400 ms MarkObjects: 6.052100 ms  DeleteObjects: 4.575100 ms)
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5586 unused Assets / (7.3 MB). Loaded Objects now: 6393.
+Memory consumption went from 181.1 MB to 173.8 MB.
+Total: 11.792800 ms (FindLiveObjects: 0.799000 ms CreateObjectMapping: 0.358900 ms MarkObjects: 6.176600 ms  DeleteObjects: 4.456000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 114.656036 seconds.
-  path: Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_02.mat
-  artifactKey: Guid(8759ec410a6774b4ea13ae32dc2b8d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_02.mat using Guid(8759ec410a6774b4ea13ae32dc2b8d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a23294a36217337358d79b866e1d0b3') in 1.5945479 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+  Time since last request: 402.855576 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/textur
+  artifactKey: Guid(2e919d98540440d4a88fa6607a06c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/textur using Guid(2e919d98540440d4a88fa6607a06c32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5deca3952f987c11275a20eec188b64') in 0.0021636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.renderTexture
-  artifactKey: Guid(4ae8ae7350b67b44785d874c413a2e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IgniteCoders/Simple Water Shader/Resources/WaterReflection.renderTexture using Guid(4ae8ae7350b67b44785d874c413a2e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '630cd5a2dc6d77ebc4ef455fcac1ae60') in 0.0264497 seconds
+  Time since last request: 0.012954 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(ff018e7d3d373d741b4be09d799ed6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_AlbedoTransparency.png using Guid(ff018e7d3d373d741b4be09d799ed6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cee3a37cf763f4bfb7b430d9fbd58d35') in 0.0759475 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_03.mat
-  artifactKey: Guid(19ac4fcfcf42b4344a6c7d97a5cd61fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_03.mat using Guid(19ac4fcfcf42b4344a6c7d97a5cd61fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb0765715cb14241506a196647d6106b') in 0.0261991 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000021 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_Normal.png
+  artifactKey: Guid(b3012a5e4749fe7488de41e8fdbfdf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_Normal.png using Guid(b3012a5e4749fe7488de41e8fdbfdf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09aff3b243478c9a9bc73242ed69ad44') in 0.0231391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.223708 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(ff018e7d3d373d741b4be09d799ed6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_AlbedoTransparency.png using Guid(ff018e7d3d373d741b4be09d799ed6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3926fc62e0b15b2a98175e3b806b5f75') in 0.0247968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.317114 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(8c54626b1d1c1c2438d27bc861f16514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_MetallicSmoothness.png using Guid(8c54626b1d1c1c2438d27bc861f16514) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '826c298daadbf312f0bc5e39dc06a30e') in 0.025251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.653646 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_Normal.png
+  artifactKey: Guid(b3012a5e4749fe7488de41e8fdbfdf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_Normal.png using Guid(b3012a5e4749fe7488de41e8fdbfdf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '009c0bae64ffc99931c9e4f0607e73d2') in 0.0321155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.423767 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha.fbx
+  artifactKey: Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha.fbx using Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19b759dff2f10273cb78a7643eb6f774') in 0.5451496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.819577 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha_hp.fbx
+  artifactKey: Guid(bf3e1b907fc085b4b93fb8935f55f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha_hp.fbx using Guid(bf3e1b907fc085b4b93fb8935f55f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5406aefe57fd6b1f30558b5db1aa6b46') in 0.070533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.869621 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha_lp.fbx
+  artifactKey: Guid(6d663f7b7c3ffcd4b8bda7fd80de889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha_lp.fbx using Guid(6d663f7b7c3ffcd4b8bda7fd80de889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65ba12037c63bb698184d2a3f378b766') in 0.0503995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.630847 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha_mp.fbx
+  artifactKey: Guid(3740aa68ce49eb0439d5f8db2bb6ba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha_mp.fbx using Guid(3740aa68ce49eb0439d5f8db2bb6ba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d5d2b5b55e5798c0340057440b6d794') in 0.0494698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.268134 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/textur/meha.mat
+  artifactKey: Guid(449cb030045da39439805771deecf660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/textur/meha.mat using Guid(449cb030045da39439805771deecf660) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf727e53633433cf86fbd94418bed8b3') in 0.0363463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.395364 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/Lavka_hp.fbx
+  artifactKey: Guid(88898438c304a2b4babf96fe38cba873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/Lavka_hp.fbx using Guid(88898438c304a2b4babf96fe38cba873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9339cb262f545daa0e624e0ebea5e54b') in 0.0341318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.037438 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/lavka.prefab
+  artifactKey: Guid(c67479588d629d247bdf1351a343b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/lavka.prefab using Guid(c67479588d629d247bdf1351a343b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2253621a723c9ca311d7f8f26c0fe95') in 0.055941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.427866 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha.fbx
+  artifactKey: Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha.fbx using Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa595f6b62e918a0837f03d4467e7d48') in 0.1316933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.307041 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha.fbx
+  artifactKey: Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha.fbx using Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5e2b80f19efe6d38f718469f9f7e4a4') in 0.1163214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 284.270067 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha.fbx
+  artifactKey: Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha.fbx using Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66d6db754e3137cabf7538104f788cbe') in 0.1180593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.187613 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha.fbx
+  artifactKey: Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha.fbx using Guid(f120ea6d87d65e74aa49191efea142ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35d7e9dda683074cf90cccc6083ac8c1') in 0.1216928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.070911 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha_hp.fbx
+  artifactKey: Guid(bf3e1b907fc085b4b93fb8935f55f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha_hp.fbx using Guid(bf3e1b907fc085b4b93fb8935f55f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea57dc87d148fe21aba763c4a5444d48') in 0.05324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.014095 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha_hp.fbx
+  artifactKey: Guid(bf3e1b907fc085b4b93fb8935f55f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha_hp.fbx using Guid(bf3e1b907fc085b4b93fb8935f55f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '467ce804c1ff56c88dd20fc447d86b27') in 0.0671227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.848218 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha_mp.fbx
+  artifactKey: Guid(3740aa68ce49eb0439d5f8db2bb6ba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha_mp.fbx using Guid(3740aa68ce49eb0439d5f8db2bb6ba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ea273091cfae3cecab4b89313aa15bb') in 0.056882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.937821 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/lozhka9.fbx
+  artifactKey: Guid(3f87316fcc0c3374a8e7010f2bc21490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/lozhka9.fbx using Guid(3f87316fcc0c3374a8e7010f2bc21490) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f56d06dd6be593c218bca5230373848e') in 0.023525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.307560 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/lozhka9.fbx
+  artifactKey: Guid(3f87316fcc0c3374a8e7010f2bc21490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/lozhka9.fbx using Guid(3f87316fcc0c3374a8e7010f2bc21490) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ab1ae91beca4dbf3e06725cb1043731') in 0.0290037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.382612 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/Lavka_hp.fbx
+  artifactKey: Guid(88898438c304a2b4babf96fe38cba873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/Lavka_hp.fbx using Guid(88898438c304a2b4babf96fe38cba873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0d9f7fe5e5faca71541eaa1a35f8eb4') in 0.0322388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.976057 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh.prefab
+  artifactKey: Guid(b775028e606ed9e46bd44160b86474a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh.prefab using Guid(b775028e606ed9e46bd44160b86474a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bc480f64183c629d56eaad88f5404bc') in 0.102853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.963461 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh1.fbx
+  artifactKey: Guid(68cd7a1a8be0e064c8b45d0c0677b52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh1.fbx using Guid(68cd7a1a8be0e064c8b45d0c0677b52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd29ab2311d7ea914f67068b46a77ba97') in 0.0786609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.187362 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh1.fbx
+  artifactKey: Guid(68cd7a1a8be0e064c8b45d0c0677b52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh1.fbx using Guid(68cd7a1a8be0e064c8b45d0c0677b52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22505bd26e983a9635bec4682f951395') in 0.0874936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.073048 seconds.
+  path: Assets/!project/3d models/Rus/objects/kosa/kosa_hp.fbx
+  artifactKey: Guid(45adaa5598d55574782a258b0c5138d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kosa/kosa_hp.fbx using Guid(45adaa5598d55574782a258b0c5138d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61276bf2a2a78416da37075ad0431558') in 0.042953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.059304 seconds.
+  path: Assets/!project/3d models/Rus/objects/kosa/kosa.prefab
+  artifactKey: Guid(1848157e0fade3a4c8845caf18b19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kosa/kosa.prefab using Guid(1848157e0fade3a4c8845caf18b19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9404b390208fbdc331f6ce71a278684') in 0.0630149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.130984 seconds.
+  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok_hp.fbx
+  artifactKey: Guid(06596efe983950345ac3c9331e94b762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok_hp.fbx using Guid(06596efe983950345ac3c9331e94b762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06b32a6f4aaa9a4c967240c6c6b31f1e') in 0.0784725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.481782 seconds.
+  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok_hp.fbx
+  artifactKey: Guid(06596efe983950345ac3c9331e94b762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok_hp.fbx using Guid(06596efe983950345ac3c9331e94b762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29e9fa3b30867094d4d6edfd14b8f924') in 0.0722819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.542766 seconds.
+  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok_lp.fbx
+  artifactKey: Guid(ec710f0c32a76e14eab75328c8d4486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok_lp.fbx using Guid(ec710f0c32a76e14eab75328c8d4486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7aa1f660ee76b4e7b770d052409bae64') in 0.0408705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.294439 seconds.
+  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab
+  artifactKey: Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab using Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79a21d416f7181b106726fd63a028049') in 0.0711868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589582 seconds.
+  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab
+  artifactKey: Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab using Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2699b958bac5a4c7785a617ccc0408c3') in 0.073206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.519227 seconds.
+  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab
+  artifactKey: Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab using Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b4abdfbe05f1fb440dee8f4ccbca406') in 0.0733309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 273.076394 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/meha.prefab
+  artifactKey: Guid(c86ee22e03c7f5a4595b14104ea70d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/meha.prefab using Guid(c86ee22e03c7f5a4595b14104ea70d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b1bd7c787c59632111d4d15c18a6ac7') in 0.0799485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.063759 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug
+  artifactKey: Guid(d5f014465c65d9a4aa8448d407a338f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug using Guid(d5f014465c65d9a4aa8448d407a338f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'debf7b85af8eeb8c841c1f0746b00dc7') in 0.0006621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040664 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/Plug2.fbx
+  artifactKey: Guid(83d578a5b979ef94fad887781b09c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/Plug2.fbx using Guid(83d578a5b979ef94fad887781b09c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cd8dc870b9de6de204def9db6677411') in 0.045064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/Plug_lp.fbx
+  artifactKey: Guid(512ca79d76455f54a88e02e3b05f2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/Plug_lp.fbx using Guid(512ca79d76455f54a88e02e3b05f2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9110305db2cd1317c63553baf4a1d156') in 0.0435408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.154025 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/textur
+  artifactKey: Guid(dc6115cd11a65754a9bd934d367f153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/textur using Guid(dc6115cd11a65754a9bd934d367f153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57f6e1c2c2b533e9bdbadc9d8292fc41') in 0.004181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033850 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(5162d97912beaed4c82af4a1ee78fa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_AlbedoTransparency.png using Guid(5162d97912beaed4c82af4a1ee78fa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb85201aa58aeda813fe39a4db5a6fcd') in 0.0164057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_Normal.png
+  artifactKey: Guid(3e0049d91cf1efc4aafe948d170730ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_Normal.png using Guid(3e0049d91cf1efc4aafe948d170730ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3710bf931a9d54978b3f8fc1618312fb') in 0.0206731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.982167 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(5162d97912beaed4c82af4a1ee78fa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_AlbedoTransparency.png using Guid(5162d97912beaed4c82af4a1ee78fa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '700aed32b5a1d36c1cee622e769fdf3f') in 0.021118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.842719 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(864da0a2bba80d3409f8f651339eb266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_MetallicSmoothness.png using Guid(864da0a2bba80d3409f8f651339eb266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cce99a4e078fd6e2076d9a3e2cc89290') in 0.0263887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.476499 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_Normal.png
+  artifactKey: Guid(3e0049d91cf1efc4aafe948d170730ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_Normal.png using Guid(3e0049d91cf1efc4aafe948d170730ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0ad65f29ff365c55ad96bc7c57d1871') in 0.0312458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.215592 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/textur/plug.mat
+  artifactKey: Guid(8ad44a0af3601e240a79fa74780447d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/textur/plug.mat using Guid(8ad44a0af3601e240a79fa74780447d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e19ac4dbac20ab6f3705fe94f8e620b') in 0.0144937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 241.024009 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/Plug2.fbx
+  artifactKey: Guid(83d578a5b979ef94fad887781b09c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/Plug2.fbx using Guid(83d578a5b979ef94fad887781b09c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '920170d01574f8b1e97d15b16f7feb13') in 0.0390548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.056 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 10.27 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Projects\VRussia_through_ages\VRussia_through_ages\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <e6ff5fa81f7b4f289fd2b129b5dcbaee>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.190 seconds
+Domain Reload Profiling: 2248ms
+	BeginReloadAssembly (316ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (641ms)
+		LoadAssemblies (475ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (308ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (276ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1190ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (930ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (630ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.07 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5586 unused Assets / (7.3 MB). Loaded Objects now: 6416.
+Memory consumption went from 181.2 MB to 174.0 MB.
+Total: 14.993700 ms (FindLiveObjects: 1.097800 ms CreateObjectMapping: 0.704300 ms MarkObjects: 7.851500 ms  DeleteObjects: 5.337800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 267.081082 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/Plug2.fbx
+  artifactKey: Guid(83d578a5b979ef94fad887781b09c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/Plug2.fbx using Guid(83d578a5b979ef94fad887781b09c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc86a5afec343a88d7066a520d3f4cfe') in 0.5380472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.865861 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/Plug2.fbx
+  artifactKey: Guid(83d578a5b979ef94fad887781b09c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/Plug2.fbx using Guid(83d578a5b979ef94fad887781b09c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0355eacfb09a983203d694f4983fd14') in 0.0411805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.608132 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/Plug2.fbx
+  artifactKey: Guid(83d578a5b979ef94fad887781b09c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/Plug2.fbx using Guid(83d578a5b979ef94fad887781b09c3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0b217dd19b7dae5a050fcb37f25aae1') in 0.0457372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.318224 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/Plug_mp.fbx
+  artifactKey: Guid(d0e00e6005567934b97572fe9fe6512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/Plug_mp.fbx using Guid(d0e00e6005567934b97572fe9fe6512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12a4e11ba639ad9f61434a301ebf912f') in 0.0619004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.298565 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/Plug_mp.fbx
+  artifactKey: Guid(d0e00e6005567934b97572fe9fe6512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/Plug_mp.fbx using Guid(d0e00e6005567934b97572fe9fe6512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '618acaebc47852c79d26788b8c6b7d8a') in 0.0380913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.072955 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/Plug_lp.fbx
+  artifactKey: Guid(512ca79d76455f54a88e02e3b05f2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/Plug_lp.fbx using Guid(512ca79d76455f54a88e02e3b05f2f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ed91cb876fc1f42be600a5f926a2ec5') in 0.0403956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 427.295224 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/plug.prefab
+  artifactKey: Guid(83f6d59d2a499044f8a9d0b3c804d514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/plug.prefab using Guid(83f6d59d2a499044f8a9d0b3c804d514) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fbebc2e72f36f0ca5b1a67cb0ea79e5') in 0.0963986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.009864 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka
+  artifactKey: Guid(53f4af97008b8aa4b8421382eefe181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka using Guid(53f4af97008b8aa4b8421382eefe181e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '499e8fd539875f37933a8e4d7ddc1caf') in 0.0029072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022130 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/polka3.fbx
+  artifactKey: Guid(57d47f1fd82ff2b47a3727f7d1dfcc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/polka3.fbx using Guid(57d47f1fd82ff2b47a3727f7d1dfcc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfa0438f63a8ffc2e2fb839125ff5f4c') in 0.0481704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/polka_mp.fbx
+  artifactKey: Guid(a0452d2ab777f6f42bed1da4c92d8085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/polka_mp.fbx using Guid(a0452d2ab777f6f42bed1da4c92d8085) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45fcb3c2932bdebe98f17e19874adad2') in 0.0515456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/polka_lp.fbx
+  artifactKey: Guid(6825e7eba14b2a345a6ec623a0451017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/polka_lp.fbx using Guid(6825e7eba14b2a345a6ec623a0451017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4b9243f338f4700ebe8ab1b47e53b62') in 0.0458777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.300783 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/textur
+  artifactKey: Guid(a6999e35c7b61a74c99fe6ead8b63330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/textur using Guid(a6999e35c7b61a74c99fe6ead8b63330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c8af0de1f4eee40a7bebc1ac5ec8f04') in 0.00076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243894 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(bc93f1cf08c25a4419190232a9ec040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_AlbedoTransparency.png using Guid(bc93f1cf08c25a4419190232a9ec040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9036334dfb02542df7d6a5fa3609fb8') in 0.0228892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_Normal.png
+  artifactKey: Guid(d546ca08ca8975e4d9c990c4d77f99e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_Normal.png using Guid(d546ca08ca8975e4d9c990c4d77f99e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3598f458d4e4ca9bc12391a62545b31b') in 0.0293614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.169105 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(bc93f1cf08c25a4419190232a9ec040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_AlbedoTransparency.png using Guid(bc93f1cf08c25a4419190232a9ec040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7713608984f75c5b00d5f131f685bcd3') in 0.0220988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.777266 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(ae9040c0fc6e57449b0faea9d2434b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_MetallicSmoothness.png using Guid(ae9040c0fc6e57449b0faea9d2434b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6eba34f3986e8974d29f63d7a4201f1') in 0.0183173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.515875 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_Normal.png
+  artifactKey: Guid(d546ca08ca8975e4d9c990c4d77f99e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_Normal.png using Guid(d546ca08ca8975e4d9c990c4d77f99e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fefcaa0b2dc6635468a1f5d9773869e9') in 0.0308268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.751855 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/textur/polka.mat
+  artifactKey: Guid(71808e07d11e47444929915bf6c7c942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/textur/polka.mat using Guid(71808e07d11e47444929915bf6c7c942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3765fe1a609c968e4a9a1224ab1c40c7') in 0.0279227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 629.828350 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/polka_hp.fbx
+  artifactKey: Guid(fe3072ca877bd824288a733b13e49f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/polka_hp.fbx using Guid(fe3072ca877bd824288a733b13e49f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c4b3fc76b1346ff6394f26099bdc779') in 0.0533891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.028610 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/polka_mp.fbx
+  artifactKey: Guid(a0452d2ab777f6f42bed1da4c92d8085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/polka_mp.fbx using Guid(a0452d2ab777f6f42bed1da4c92d8085) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '318d2acb55fd2a4f192958ee6d0fa9a0') in 0.0367849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.805294 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/polka_mp.fbx
+  artifactKey: Guid(a0452d2ab777f6f42bed1da4c92d8085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/polka_mp.fbx using Guid(a0452d2ab777f6f42bed1da4c92d8085) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce21ff465145e44be37306e174b65884') in 0.0367236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.416711 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/polka_lp.fbx
+  artifactKey: Guid(6825e7eba14b2a345a6ec623a0451017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/polka_lp.fbx using Guid(6825e7eba14b2a345a6ec623a0451017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a773038a837bacf0b7fde1db4141c98f') in 0.0460732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.153014 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/polka_lp.fbx
+  artifactKey: Guid(6825e7eba14b2a345a6ec623a0451017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/polka_lp.fbx using Guid(6825e7eba14b2a345a6ec623a0451017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44802e3f25368e0cf511fa530c3fb37b') in 0.0455667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.748901 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/polka.prefab
+  artifactKey: Guid(d7e2c35bbed604a40930835c722666b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/polka.prefab using Guid(d7e2c35bbed604a40930835c722666b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb05154fbb4c77231bc895a080b93df1') in 0.0202506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.881679 seconds.
+  path: Assets/!project/3d models/Rus/objects/stol/stol_textur/stol.mat
+  artifactKey: Guid(f1fcae5f7b41fba4bbd514db23f158e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/stol/stol_textur/stol.mat using Guid(f1fcae5f7b41fba4bbd514db23f158e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f16193d78236deb3c88ebed5066ad486') in 0.0582153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.295934 seconds.
+  path: Assets/!project/3d models/Rus/objects/stol/stol.fbx
+  artifactKey: Guid(5b0d1a3663afd404d8b3fb3e83a9b314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/stol/stol.fbx using Guid(5b0d1a3663afd404d8b3fb3e83a9b314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fb41daf6afe11a19e77820a8ee410d1') in 0.0692084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.047887 seconds.
+  path: Assets/!project/3d models/Rus/objects/stol/stol.fbx
+  artifactKey: Guid(5b0d1a3663afd404d8b3fb3e83a9b314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/stol/stol.fbx using Guid(5b0d1a3663afd404d8b3fb3e83a9b314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a85fceb48bf2b9e9510028f8fab2b2e') in 0.058048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.198479 seconds.
+  path: Assets/!project/3d models/Rus/objects/stol/stol_hp.fbx
+  artifactKey: Guid(7c0a1dea24ba2744390840ae631857aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/stol/stol_hp.fbx using Guid(7c0a1dea24ba2744390840ae631857aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8ee199cc3789a179efa2fecddbc3410') in 0.0205172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.903973 seconds.
+  path: Assets/!project/3d models/Rus/objects/stol/stol_lp.fbx
+  artifactKey: Guid(f7b4047656cbadc4b82971db4856cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/stol/stol_lp.fbx using Guid(f7b4047656cbadc4b82971db4856cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b8501fd02a7da2cd144bd12ebc2d180') in 0.0248073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.148531 seconds.
+  path: Assets/!project/3d models/Rus/objects/stol/stol.prefab
+  artifactKey: Guid(be5fde019303c7c47851c6ced7f82191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/stol/stol.prefab using Guid(be5fde019303c7c47851c6ced7f82191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4ab9a9671b51273d05fab94b39ece41') in 0.0809053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.085 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.79 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Projects\VRussia_through_ages\VRussia_through_ages\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <e6ff5fa81f7b4f289fd2b129b5dcbaee>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.196 seconds
+Domain Reload Profiling: 2283ms
+	BeginReloadAssembly (333ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (647ms)
+		LoadAssemblies (507ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (268ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1196ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (932ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (641ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.43 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5586 unused Assets / (7.0 MB). Loaded Objects now: 6439.
+Memory consumption went from 181.3 MB to 174.3 MB.
+Total: 13.835200 ms (FindLiveObjects: 0.929300 ms CreateObjectMapping: 0.485900 ms MarkObjects: 7.066200 ms  DeleteObjects: 5.351900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 66.537705 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor
+  artifactKey: Guid(7afac2ff654e33e47b3f704fe74c638e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor using Guid(7afac2ff654e33e47b3f704fe74c638e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45d171546a45b894eec2b5c7c39f170c') in 0.0020886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018444 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor/topor1.fbx
+  artifactKey: Guid(db2dcce1634ca7f4b988431b4ce2f4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor/topor1.fbx using Guid(db2dcce1634ca7f4b988431b4ce2f4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88e9dff99be4f50de1452e30fcd7d8fa') in 0.5849514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.431406 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor/textur
+  artifactKey: Guid(d0e5ee346d6a20a4196197f22c04c990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor/textur using Guid(d0e5ee346d6a20a4196197f22c04c990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a814d7a71ac78a9d7883c3b6f045aaa') in 0.0041467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047107 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(b2267eee9a8912d49a4d497364653e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_AlbedoTransparency.png using Guid(b2267eee9a8912d49a4d497364653e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60ca47e0a75c911b946d7f0df4250326') in 0.0256114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_Normal.png
+  artifactKey: Guid(9a078fe538ce92842a5eceb5727a0ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_Normal.png using Guid(9a078fe538ce92842a5eceb5727a0ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff6196cbb39b84dfb2885e6dcb0259c1') in 0.0212571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.107437 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(b2267eee9a8912d49a4d497364653e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_AlbedoTransparency.png using Guid(b2267eee9a8912d49a4d497364653e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19fb620685baa679236e2a69ac96ef1a') in 0.0212683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.294552 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(073a7f3dcea71c0459b656250af12f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_MetallicSmoothness.png using Guid(073a7f3dcea71c0459b656250af12f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6046175673d712e4aa2972c975fd1e9b') in 0.0255601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.495367 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_Normal.png
+  artifactKey: Guid(9a078fe538ce92842a5eceb5727a0ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_Normal.png using Guid(9a078fe538ce92842a5eceb5727a0ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02cd555839e133faa28784bf1b15a4cc') in 0.0325542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.319405 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor/textur/topor.mat
+  artifactKey: Guid(1a7b6c1e566c6d74a9275a33d34930d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor/textur/topor.mat using Guid(1a7b6c1e566c6d74a9275a33d34930d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3a52d2d62f9df7d2f8c9be579bd8654') in 0.0375611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 205.640104 seconds.
+  path: Assets/!project/3d models/Rus/objects/Ukhvat
+  artifactKey: Guid(0539187f4db727740a44acb405b1021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Ukhvat using Guid(0539187f4db727740a44acb405b1021a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5993fe0fe4dc7442b82cf0f7b0121aaf') in 0.00067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024595 seconds.
+  path: Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat1.fbx
+  artifactKey: Guid(9a141dbaf5ffa3846bb7b51f4944031a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat1.fbx using Guid(9a141dbaf5ffa3846bb7b51f4944031a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b4e87414e71df1963d79dadb924d310') in 0.0444665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat_mp.fbx
+  artifactKey: Guid(c75616cb6574f184b9c903574b5b6f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat_mp.fbx using Guid(c75616cb6574f184b9c903574b5b6f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31f628941d41dfa737c449e99dde38b3') in 0.0415823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat_lp.fbx
+  artifactKey: Guid(5b020e6b82b73cb48be10821966fc70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat_lp.fbx using Guid(5b020e6b82b73cb48be10821966fc70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7abb6d8b58129e88d1a5a0ff0efe9794') in 0.0432788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.442196 seconds.
+  path: Assets/!project/3d models/Rus/objects/Ukhvat/textur/Ukhvat1_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(03519e6a0a0ccc04590b6e6037fdd9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Ukhvat/textur/Ukhvat1_DefaultMaterial_MetallicSmoothness.png using Guid(03519e6a0a0ccc04590b6e6037fdd9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '295f69b24ad5e300a1e75a0db02aafbc') in 0.0346748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

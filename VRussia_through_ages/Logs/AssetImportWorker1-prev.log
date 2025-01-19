@@ -15,7 +15,7 @@ E:/Projects/VRussia_through_ages/VRussia_through_ages
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58090
+60244
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ E:/Projects/VRussia_through_ages/VRussia_through_ages
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17004]  Target information:
+Player connection [10560]  Target information:
 
-Player connection [17004]  * "[IP] 192.168.1.175 [Port] 0 [Flags] 2 [Guid] 2374410284 [EditorId] 2374410284 [Version] 1048832 [Id] WindowsEditor(7,verdenkaa-desc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10560]  * "[IP] 192.168.1.175 [Port] 0 [Flags] 2 [Guid] 492520230 [EditorId] 492520230 [Version] 1048832 [Id] WindowsEditor(7,verdenkaa-desc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17004] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17004] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10560] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10560] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 14.23 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 13.50 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.31f1 (a206c360e2a8)
 [Subsystems] Discovering subsystems at path E:/Programs/unity/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
@@ -91,43 +91,43 @@ Initialize mono
 Mono path[0] = 'E:/Programs/unity/6000.0.31f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programs/unity/6000.0.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Programs/unity/6000.0.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Programs/unity/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002867 seconds.
-- Loaded All Assemblies, in  0.681 seconds
+Registered in 0.002949 seconds.
+- Loaded All Assemblies, in  0.505 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.608 seconds
-Domain Reload Profiling: 1290ms
-	BeginReloadAssembly (232ms)
+- Finished resetting the current domain, in  0.468 seconds
+Domain Reload Profiling: 973ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (278ms)
-		LoadAssemblies (230ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (178ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (269ms)
-				TypeCache.ScanAssembly (241ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (177ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (610ms)
+	FinalizeReload (468ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (534ms)
+		SetupLoadedEditorAssemblies (407ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (278ms)
-			ProcessInitializeOnLoadMethodAttributes (118ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -136,10 +136,10 @@ Domain Reload Profiling: 1290ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.472 seconds
+- Loaded All Assemblies, in  1.103 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 13.60 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 8.93 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -177,63 +177,103 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.620 seconds
-Domain Reload Profiling: 3090ms
-	BeginReloadAssembly (311ms)
+- Finished resetting the current domain, in  1.112 seconds
+Domain Reload Profiling: 2214ms
+	BeginReloadAssembly (236ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (1000ms)
-		LoadAssemblies (701ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (748ms)
+		LoadAssemblies (524ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (504ms)
-			TypeCache.Refresh (374ms)
-				TypeCache.ScanAssembly (343ms)
-			BuildScriptInfoCaches (108ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1620ms)
+		AnalyzeDomain (376ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (249ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1113ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1332ms)
+		SetupLoadedEditorAssemblies (914ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (175ms)
-			ProcessInitializeOnLoadAttributes (879ms)
-			ProcessInitializeOnLoadMethodAttributes (265ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (561ms)
+			ProcessInitializeOnLoadMethodAttributes (221ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 13.06 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 9.88 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 240 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5587 unused Assets / (7.5 MB). Loaded Objects now: 6253.
-Memory consumption went from 166.0 MB to 158.5 MB.
-Total: 24.019500 ms (FindLiveObjects: 1.082700 ms CreateObjectMapping: 1.933700 ms MarkObjects: 11.688600 ms  DeleteObjects: 9.312200 ms)
+Unloading 5587 unused Assets / (7.1 MB). Loaded Objects now: 6253.
+Memory consumption went from 168.0 MB to 160.9 MB.
+Total: 13.864900 ms (FindLiveObjects: 1.079700 ms CreateObjectMapping: 0.731000 ms MarkObjects: 7.051200 ms  DeleteObjects: 5.001600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 107170.405487 seconds.
-  path: Assets/!project/3d models/Rus/objects/stol/stol_textur/Материал_Base_color.png
-  artifactKey: Guid(12862204eb384434bac51aa2db79e0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/stol/stol_textur/Материал_Base_color.png using Guid(12862204eb384434bac51aa2db79e0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f2840ba967e6520e00c98473275d764') in 0.1159298 seconds
+  Time since last request: 168880.096021 seconds.
+  path: Assets/!project/3d models/Rus/objects/kosa/kosa.prefab
+  artifactKey: Guid(1848157e0fade3a4c8845caf18b19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kosa/kosa.prefab using Guid(1848157e0fade3a4c8845caf18b19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2227da8d66c757a252feb9324542a02a') in 0.6611442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.908383 seconds.
+  path: Assets/!project/3d models/Rus/objects/kosa/kosa_mp.fbx
+  artifactKey: Guid(5d6ce3e41d60a474b8c73fd74695be6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kosa/kosa_mp.fbx using Guid(5d6ce3e41d60a474b8c73fd74695be6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee79fa6ac3bf3ea6fd51fd7000a781f9') in 0.0660037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.985384 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh_hp.fbx
+  artifactKey: Guid(00a9496eb86857a42be82e6995a5cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh_hp.fbx using Guid(00a9496eb86857a42be82e6995a5cad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '087742b430533d8859e05c9de0755dbc') in 0.0615815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh_lp.fbx
+  artifactKey: Guid(7f828f3ac3057b647972c5a5ae962b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh_lp.fbx using Guid(7f828f3ac3057b647972c5a5ae962b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa6f835e0f50d64ed5de8c510306a8da') in 0.0227853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.710488 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh1_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(bebe61f1d98bddd44b1b520b3a9388f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/textur/kovsh1_DefaultMaterial_MetallicSmoothness.png using Guid(bebe61f1d98bddd44b1b520b3a9388f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bae809ad327a533c03b86ec251a0b86') in 0.0392825 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 872.445069 seconds.
+  path: Assets/From starter/VRTemplateAssets/Materials/Primitive/Interactables Bouncy.physicMaterial
+  artifactKey: Guid(590dbebc6f287b940ac52b3dfea3bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/From starter/VRTemplateAssets/Materials/Primitive/Interactables Bouncy.physicMaterial using Guid(590dbebc6f287b940ac52b3dfea3bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a67848becd5911c6ddfc5ae59cf8d8f4') in 0.0016901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.413 seconds
+- Loaded All Assemblies, in  0.972 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 13.28 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 10.40 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -266,103 +306,789 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.093 seconds
-Domain Reload Profiling: 3567ms
-	BeginReloadAssembly (378ms)
+- Finished resetting the current domain, in  1.175 seconds
+Domain Reload Profiling: 2149ms
+	BeginReloadAssembly (283ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (27ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (92ms)
-	RebuildCommonClasses (90ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (870ms)
-		LoadAssemblies (654ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (587ms)
+		LoadAssemblies (429ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (422ms)
-			TypeCache.Refresh (12ms)
+		AnalyzeDomain (288ms)
+			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (381ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (2155ms)
+			BuildScriptInfoCaches (255ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1175ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1630ms)
+		SetupLoadedEditorAssemblies (910ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (352ms)
-			ProcessInitializeOnLoadAttributes (978ms)
-			ProcessInitializeOnLoadMethodAttributes (279ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (599ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 15.51 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 10.10 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5585 unused Assets / (7.4 MB). Loaded Objects now: 6273.
-Memory consumption went from 177.2 MB to 169.8 MB.
-Total: 26.780400 ms (FindLiveObjects: 1.073600 ms CreateObjectMapping: 1.483400 ms MarkObjects: 11.590800 ms  DeleteObjects: 12.629000 ms)
+Unloading 5586 unused Assets / (6.8 MB). Loaded Objects now: 6306.
+Memory consumption went from 182.4 MB to 175.6 MB.
+Total: 13.576800 ms (FindLiveObjects: 0.918000 ms CreateObjectMapping: 0.540900 ms MarkObjects: 6.845000 ms  DeleteObjects: 5.271300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.928 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.96 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Projects\VRussia_through_ages\VRussia_through_ages\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <e6ff5fa81f7b4f289fd2b129b5dcbaee>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.157 seconds
+Domain Reload Profiling: 2088ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (585ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (277ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1158ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (909ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (618ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 8.97 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5585 unused Assets / (7.3 MB). Loaded Objects now: 6309.
+Memory consumption went from 180.7 MB to 173.4 MB.
+Total: 12.219900 ms (FindLiveObjects: 0.812700 ms CreateObjectMapping: 0.383100 ms MarkObjects: 6.666400 ms  DeleteObjects: 4.355600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 661.327637 seconds.
-  path: Assets/!project/3d models/Rus/objects/bochka/bochka_mp.fbx
-  artifactKey: Guid(87123782192083444a00311456843cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/bochka/bochka_mp.fbx using Guid(87123782192083444a00311456843cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9615bc0d196774b84ab8e29f83142a77') in 0.8553685 seconds
+  Time since last request: 636.280610 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/Lavka_hp.fbx
+  artifactKey: Guid(88898438c304a2b4babf96fe38cba873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/Lavka_hp.fbx using Guid(88898438c304a2b4babf96fe38cba873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76aef1df7f5717f868a3da67170180d7') in 0.5840519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.194129 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_MetallicSmoothness.png
+  artifactKey: Guid(29455b354ff27d743a91d0c415fee4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/textur/Lavka6_Материал_MetallicSmoothness.png using Guid(29455b354ff27d743a91d0c415fee4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d8b89b37f25c14f41ad5d946d375254') in 0.0436717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.966 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.50 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Projects\VRussia_through_ages\VRussia_through_ages\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <e6ff5fa81f7b4f289fd2b129b5dcbaee>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.175 seconds
+Domain Reload Profiling: 2143ms
+	BeginReloadAssembly (282ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (591ms)
+		LoadAssemblies (432ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (266ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1176ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (931ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (639ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.14 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5586 unused Assets / (6.9 MB). Loaded Objects now: 6365.
+Memory consumption went from 181.0 MB to 174.1 MB.
+Total: 11.939900 ms (FindLiveObjects: 0.807900 ms CreateObjectMapping: 0.334800 ms MarkObjects: 5.904000 ms  DeleteObjects: 4.891600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.907 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 9.68 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Projects\VRussia_through_ages\VRussia_through_ages\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <e6ff5fa81f7b4f289fd2b129b5dcbaee>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.142 seconds
+Domain Reload Profiling: 2051ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (569ms)
+		LoadAssemblies (426ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (247ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1143ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (896ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (600ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.45 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5585 unused Assets / (7.3 MB). Loaded Objects now: 6368.
+Memory consumption went from 180.9 MB to 173.5 MB.
+Total: 11.905600 ms (FindLiveObjects: 0.828200 ms CreateObjectMapping: 0.440100 ms MarkObjects: 6.330500 ms  DeleteObjects: 4.305100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 510.706566 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/lozhka_hp.fbx
+  artifactKey: Guid(18345a93a55111145bed97e70d237c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/lozhka_hp.fbx using Guid(18345a93a55111145bed97e70d237c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14065020cc44b4b7ad9436ebaf6a45d4') in 0.5296862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.014291 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/textur/lozhka9_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(f1c180ba04d7eb64aacba7b0b692eaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/textur/lozhka9_DefaultMaterial_MetallicSmoothness.png using Guid(f1c180ba04d7eb64aacba7b0b692eaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a64536a386d75e1c437f23ec579b06cb') in 0.0299418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 465.795851 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha_hp.fbx
+  artifactKey: Guid(bf3e1b907fc085b4b93fb8935f55f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha_hp.fbx using Guid(bf3e1b907fc085b4b93fb8935f55f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d27706f7d535f75ee885833480917a5') in 0.1381058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/mekha_mp.fbx
+  artifactKey: Guid(3740aa68ce49eb0439d5f8db2bb6ba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/mekha_mp.fbx using Guid(3740aa68ce49eb0439d5f8db2bb6ba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41acce96f730b0f859a8f081f7fca354') in 0.0636785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.994 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 10.44 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Projects\VRussia_through_ages\VRussia_through_ages\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <e6ff5fa81f7b4f289fd2b129b5dcbaee>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.145 seconds
+Domain Reload Profiling: 2141ms
+	BeginReloadAssembly (276ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (625ms)
+		LoadAssemblies (469ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (258ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1146ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (897ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (604ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.18 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5585 unused Assets / (6.9 MB). Loaded Objects now: 6391.
+Memory consumption went from 181.1 MB to 174.2 MB.
+Total: 11.956200 ms (FindLiveObjects: 0.807500 ms CreateObjectMapping: 0.380900 ms MarkObjects: 5.878600 ms  DeleteObjects: 4.887500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 402.910675 seconds.
+  path: Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(8c54626b1d1c1c2438d27bc861f16514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/mekha/textur/mekha_DefaultMaterial_MetallicSmoothness.png using Guid(8c54626b1d1c1c2438d27bc861f16514) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9ea1f63e5a6db213491fa3142398ab7') in 0.0915731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 433.754275 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/lavka.prefab
+  artifactKey: Guid(c67479588d629d247bdf1351a343b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/lavka.prefab using Guid(c67479588d629d247bdf1351a343b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '882327982a2b7746627495e5992a25de') in 0.5104345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 576.648038 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/lozka.prefab
+  artifactKey: Guid(cbdb2b25a87b79b47a444692672c1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/lozka.prefab using Guid(cbdb2b25a87b79b47a444692672c1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e96e18273c0d7485fc5245ce092557c3') in 0.0642746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.255035 seconds.
+  path: Assets/!project/3d models/Rus/objects/lozhka/lozka.prefab
+  artifactKey: Guid(cbdb2b25a87b79b47a444692672c1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/lozhka/lozka.prefab using Guid(cbdb2b25a87b79b47a444692672c1230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ecd0ba9eeb8dfa0e1a81c7c0b6193ee') in 0.0542882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.359430 seconds.
+  path: Assets/!project/3d models/Rus/objects/Lavka/lavka.prefab
+  artifactKey: Guid(c67479588d629d247bdf1351a343b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Lavka/lavka.prefab using Guid(c67479588d629d247bdf1351a343b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8da62156ca7668c5cba6ec5faaca894b') in 0.0601471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.069057 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh.prefab
+  artifactKey: Guid(b775028e606ed9e46bd44160b86474a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh.prefab using Guid(b775028e606ed9e46bd44160b86474a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62fcb006db9a4af0806c88284b04a2fa') in 0.1046919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.159964 seconds.
+  path: Assets/!project/3d models/Rus/objects/kovsh/kovsh.prefab
+  artifactKey: Guid(b775028e606ed9e46bd44160b86474a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kovsh/kovsh.prefab using Guid(b775028e606ed9e46bd44160b86474a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58b08c477d1474d13db4cdefa8cdd089') in 0.117044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.053478 seconds.
+  path: Assets/!project/3d models/Rus/objects/kosa/kosa.prefab
+  artifactKey: Guid(1848157e0fade3a4c8845caf18b19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/kosa/kosa.prefab using Guid(1848157e0fade3a4c8845caf18b19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcd685017185a0738122be33afd2f0f5') in 0.0665752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.266923 seconds.
+  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab
+  artifactKey: Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab using Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca3161b04ab0c9a05546c9331bc5dc36') in 0.0943285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.465304 seconds.
+  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab
+  artifactKey: Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab using Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d1114a2e3bbeca5aa2e7e39f7fcb56') in 0.0872578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.521138 seconds.
+  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab
+  artifactKey: Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok.prefab using Guid(9f620e71c07d2154aaa04072fdb5a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d74ad889ea1b2bd31048d3155207913') in 0.0785768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 311.005700 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/Plug_hp.fbx
+  artifactKey: Guid(71a6c209ed2f5c64da0de510b7ad488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/Plug_hp.fbx using Guid(71a6c209ed2f5c64da0de510b7ad488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fdc5fd4a4cfbc77032b2db0cbf868ed') in 0.0563036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/Plug_mp.fbx
+  artifactKey: Guid(d0e00e6005567934b97572fe9fe6512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/Plug_mp.fbx using Guid(d0e00e6005567934b97572fe9fe6512e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60be9cd9ffb4d7229ce39d06ddc2dec2') in 0.038693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.220510 seconds.
+  path: Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(864da0a2bba80d3409f8f651339eb266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Plug/textur/Plug2_DefaultMaterial_MetallicSmoothness.png using Guid(864da0a2bba80d3409f8f651339eb266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d00811d0d4a448105d4b5e3ca8f2d54') in 0.0283311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.034 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 10.32 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Projects\VRussia_through_ages\VRussia_through_ages\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <e6ff5fa81f7b4f289fd2b129b5dcbaee>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.200 seconds
+Domain Reload Profiling: 2237ms
+	BeginReloadAssembly (308ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (630ms)
+		LoadAssemblies (473ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (271ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1201ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (935ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (643ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.75 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5586 unused Assets / (6.9 MB). Loaded Objects now: 6414.
+Memory consumption went from 181.1 MB to 174.2 MB.
+Total: 14.445400 ms (FindLiveObjects: 1.115000 ms CreateObjectMapping: 0.632900 ms MarkObjects: 7.455100 ms  DeleteObjects: 5.240200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1012.605587 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/polka_hp.fbx
+  artifactKey: Guid(fe3072ca877bd824288a733b13e49f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/polka_hp.fbx using Guid(fe3072ca877bd824288a733b13e49f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe5da719b56eb5bbc1e2702bb1050ec0') in 0.5839396 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/!project/3d models/Rus/objects/bochka/textur/gorshok1_DefaultMaterial_MetallicSmoothness.png
-  artifactKey: Guid(e1c7b8dfd34a16540ad086785dbf9545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/bochka/textur/gorshok1_DefaultMaterial_MetallicSmoothness.png using Guid(e1c7b8dfd34a16540ad086785dbf9545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbe3ac9255d8d509b5013c4937dc11be') in 0.0409876 seconds
+  Time since last request: 75.206687 seconds.
+  path: Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(ae9040c0fc6e57449b0faea9d2434b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Polka/textur/polka3_DefaultMaterial_MetallicSmoothness.png using Guid(ae9040c0fc6e57449b0faea9d2434b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f5d811a094ca2e71cf10a8fb77e87c') in 0.0542945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.065 seconds
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 10.23 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Projects\VRussia_through_ages\VRussia_through_ages\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <e6ff5fa81f7b4f289fd2b129b5dcbaee>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.214 seconds
+Domain Reload Profiling: 2282ms
+	BeginReloadAssembly (334ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (627ms)
+		LoadAssemblies (489ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (268ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1215ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (946ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (638ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.08 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5585 unused Assets / (6.8 MB). Loaded Objects now: 6437.
+Memory consumption went from 181.2 MB to 174.4 MB.
+Total: 13.435300 ms (FindLiveObjects: 1.038100 ms CreateObjectMapping: 0.423800 ms MarkObjects: 6.606900 ms  DeleteObjects: 5.364400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1456.479528 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor/topor_lp.fbx
+  artifactKey: Guid(3ed4eaa9f3b230f4fa24241265ea2940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor/topor_lp.fbx using Guid(3ed4eaa9f3b230f4fa24241265ea2940) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8785cd0e637b017ec40d38b8af398dcc') in 0.5542489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor/topor_mp.fbx
+  artifactKey: Guid(216633d9b24cd2146b09f9bd0b9963e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor/topor_mp.fbx using Guid(216633d9b24cd2146b09f9bd0b9963e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c894dc1b26bc843f7146a31270d9e5e') in 0.0340063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.468107 seconds.
+  path: Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(073a7f3dcea71c0459b656250af12f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/topor/textur/topor1_DefaultMaterial_MetallicSmoothness.png using Guid(073a7f3dcea71c0459b656250af12f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc5caa5876267fd75cece51790019193') in 0.0420083 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/!project/3d models/Rus/objects/bochka/textur
-  artifactKey: Guid(1cbd63e1c7eb1dc41810d679b9bb240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/bochka/textur using Guid(1cbd63e1c7eb1dc41810d679b9bb240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5c44739605a82ca98b52817457591d2') in 0.0009762 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 273.707388 seconds.
-  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok_hp.fbx
-  artifactKey: Guid(06596efe983950345ac3c9331e94b762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok_hp.fbx using Guid(06596efe983950345ac3c9331e94b762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '300da26c53a143fb7974f7dc34ded5af') in 0.0861223 seconds
+  Time since last request: 234.208818 seconds.
+  path: Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat_hp.fbx
+  artifactKey: Guid(e262a29e2b2ffe541aeb509686bde688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat_hp.fbx using Guid(e262a29e2b2ffe541aeb509686bde688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb85306c219661b0ba0b63683a3e8cd5') in 0.0617531 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok_mp_2.fbx
-  artifactKey: Guid(568741e4686eafb4dba82e153e1ecc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok_mp_2.fbx using Guid(568741e4686eafb4dba82e153e1ecc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2722b9356eef3084b016e0779fe75e38') in 0.0558993 seconds
+  Time since last request: 0.000065 seconds.
+  path: Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat_mp_2.fbx
+  artifactKey: Guid(5b14e76030884c447b401f6bb964ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat_mp_2.fbx using Guid(5b14e76030884c447b401f6bb964ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ba1c826639e20f1b1e26075ffbfd1c0') in 0.0452419 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/!project/3d models/Rus/objects/gorshok/gorshok_hp_2.fbx
-  artifactKey: Guid(7c2c7ea84b7e8b943a783dfd0dd846d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/gorshok/gorshok_hp_2.fbx using Guid(7c2c7ea84b7e8b943a783dfd0dd846d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bfe33517fa335d9b702c0b08ae95c96') in 0.0509508 seconds
+  Time since last request: 0.000049 seconds.
+  path: Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat_hp_2.fbx
+  artifactKey: Guid(133c6fae0598e7f4e82d3568f473fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Ukhvat/Ukhvat_hp_2.fbx using Guid(133c6fae0598e7f4e82d3568f473fe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ffce1bd8a35bba537170eba03a52e3f') in 0.0440052 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.608108 seconds.
-  path: Assets/!project/3d models/Rus/objects/gorshok/textur/gorshok1_DefaultMaterial_MetallicSmoothness.png
-  artifactKey: Guid(f67e05adf7040f24daa7edaddec30885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/!project/3d models/Rus/objects/gorshok/textur/gorshok1_DefaultMaterial_MetallicSmoothness.png using Guid(f67e05adf7040f24daa7edaddec30885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5660fd72f01643d023696fab9b92869') in 0.0181832 seconds
+  Time since last request: 19.422748 seconds.
+  path: Assets/!project/3d models/Rus/objects/Ukhvat/textur/Ukhvat1_DefaultMaterial_Normal.png
+  artifactKey: Guid(597f38f8594a1da45a48c41e681b8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/Ukhvat/textur/Ukhvat1_DefaultMaterial_Normal.png using Guid(597f38f8594a1da45a48c41e681b8b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e23ecb0cf5ef12e77485e207af7f427') in 0.0266024 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 593.104368 seconds.
+  path: Assets/!project/3d models/Rus/objects/zabor/palka_mp.fbx
+  artifactKey: Guid(4179a50d85109054e94de64a70a8359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/zabor/palka_mp.fbx using Guid(4179a50d85109054e94de64a70a8359d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eca63190f353e5df1ca637eaf9d84d10') in 0.0249462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/!project/3d models/Rus/objects/zabor/zabor_styk_got.fbx
+  artifactKey: Guid(120ebb4fde8c42844a0a2faa6c485091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/zabor/zabor_styk_got.fbx using Guid(120ebb4fde8c42844a0a2faa6c485091) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ea0fd9d0948c4317d2cde3885171ab8') in 0.0241937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/!project/3d models/Rus/objects/zabor/zabor_got_mp.fbx
+  artifactKey: Guid(1a68ef45e87291e498c71cf11a17285b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!project/3d models/Rus/objects/zabor/zabor_got_mp.fbx using Guid(1a68ef45e87291e498c71cf11a17285b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7bf7d0fd22f8c484143cc1afcc24b7d') in 0.0238312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
